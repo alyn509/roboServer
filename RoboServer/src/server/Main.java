@@ -18,6 +18,6 @@ public class Main extends ServerResource {
 	
     @Get("xml|html")
     public Representation represent() {
-        return new FileRepresentation("./html/thing.html", MediaType.TEXT_HTML);
+        return new FileRepresentation("./bootstrap/index.html", MediaType.TEXT_HTML);
     }
 }
